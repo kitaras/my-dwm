@@ -8,9 +8,9 @@ static const char *fonts[]          = {
 	"Font Awesome 6 Free Solid:size=13"
 };
 static const char dmenufont[]       = "JetBrains Mono Medium:size=13";
-static const char col_gray1[]       = "#ffffff";
-static const char col_gray2[]       = "#222222";
-static const char col_gray3[]       = "#222222";
+static const char col_gray1[]       = "#10151a";
+static const char col_gray2[]       = "#20252a";
+static const char col_gray3[]       = "#c5c8c6";
 static const char col_gray4[]       = "#ffffff";
 static const char col_cyan[]        = "#81a2be";
 static const char *colors[][3]      = {
@@ -73,8 +73,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-b", "-m", dmenumon, "-fn", dmen
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *brupcmd[] = { "light", "-A", "10", NULL };
 static const char *brdowncmd[] = { "light", "-U", "10", NULL };
-static const char *flameshot[] = { "flameshot", "gui", NULL };
-
+static const char *flameshot[] = { "/home/kamawanaide/screenshot.sh", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
